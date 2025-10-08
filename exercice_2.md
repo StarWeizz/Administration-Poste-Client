@@ -16,7 +16,7 @@ lecture/écriture que pour le propriétaire
 ```bash
 touch secret.txt
 ```
-![secret.txt](secret.txt.png)
+![secret.txt](exercice_2/secret.txt.png)
 
 <hr>
 
@@ -28,7 +28,7 @@ touch secret.txt
 chmod 700 secret.txt
 ```
 
-![chmod](chmod.png)
+![chmod](exercice_2/chmod.png)
 
 <hr>
 
@@ -40,5 +40,5 @@ chmod 700 secret.txt
 su autre_utilisateur
 cat secret.txt
 ```
-![su cat](su_cat.png)
-![permission denied](permission_denied.png)
+
+![permission denied](exercice_2/permission_denied.png)

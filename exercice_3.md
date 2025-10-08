@@ -16,7 +16,7 @@
 ps aux --sort=-%mem | head -n 1
 ```
 
-![ps aux](ps_aux.png)
+![ps aux](exercice_3/ps_aux.png)
 
 <hr>
 
@@ -28,7 +28,7 @@ ps aux --sort=-%mem | head -n 1
 renice -n 10 -p <PID>
 ```
 
-![renice](renice.png)
+![renice](exercice_3/renice.png)
 
 <hr>
 
@@ -40,4 +40,4 @@ renice -n 10 -p <PID>
 kill -9 <PID>
 ```
 
-![kill](kill.png)
+![kill](exercice_3/kill.png)

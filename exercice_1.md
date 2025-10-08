@@ -4,7 +4,7 @@
 
 1. Créer un fichier log.txt qui contient la liste des fichiers de /etc
 2. Ajoute dans ce fichier les 10 dernières lignes du fichier /var/log/syslog
-3. Affichez moi seulement les lignes qui contiennent le mot "ERROR"
+3. Affichez moi seulement les lignes qui contiennent le mot "error" dans le fichier /var/log/syslog
 
 <hr>
 
@@ -16,7 +16,7 @@
 ls /etc > log.txt
 ```
 
-![log.txt 1](log.txt%201.png)
+![log.txt 1](exercice_1/log.txt%201.png)
 
 <hr>
 
@@ -28,12 +28,16 @@ ls /etc > log.txt
 tail -n 10 /var/log/syslog >> log.txt
 ```
 
-![log.txt 2](log.txt%202.png)
+![log.txt 2](exercice_1/log.txt%202.png)
 
 <hr>
 
-### Étape 3 : Affichage des lignes contenant le mot "ERROR"
+### Étape 3 : Affichage des lignes contenant le mot "error"
+
+> La commande `grep` permet de rechercher des lignes contenant un motif spécifique dans un fichier. L'option `-i` permet de rendre la recherche insensible à la casse (majuscules/minuscules).
 
 ```bash
-grep "ERROR" log.txt
+cat /var/log/syslog | grep -i "error"
 ```
+
+![log.txt 3](exercice_1/grep.png)

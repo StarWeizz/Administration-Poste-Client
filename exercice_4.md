@@ -15,8 +15,11 @@
 #!/bin/bash
 # Crée le répertoire de sauvegarde s'il n'existe pas
 mkdir -p /home/user/backups
-# Copie le contenu du répertoire Documents vers le répertoire backups
+# Créer le script de sauvegarde
 cp -r /home/user/Documents/* /home/user/backups/
+echo "Sauvegarde effectuée le $(date)" >> /home/user/backup.log
+
+
 ```
 
 ![backup script](backup_script.png)
