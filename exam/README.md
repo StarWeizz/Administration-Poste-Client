@@ -2,9 +2,13 @@
 
 ### Mission 1
 
+> On doit aller tout en haut du donjon, on utilise `cd Castle/Main_tower/First_floor/Top_of_the_tower` pour y aller.
+
 ![Mission 1](./missions/mission_1.png)
 
 ### Mission 2
+
+> On doit aller dans le cellar. On fait `cd Castle/Cellar` pour y aller.
 
 ![Mission 2](./missions/mission_2.png)
 
@@ -40,13 +44,13 @@
 
 ### Mission 8
 
-> On doit à nouveau tuer toutes les araignées mais mtn elles sont nombreuses ces coquines ! On utilise `cd Castle/Cellar` pour aller dans le cellar, puis `rm *spider*` pour les eliminer toutes en une seule commande. `*` est un joker qui permet de sélectionner tous les fichiers contenant "spider" dans leur nom car évidemment, elles ont toutes des chiffres différents pour bien casser les couilles.
+> On doit à nouveau tuer toutes les araignées mais mtn elles sont nombreuses ces coquines ! On utilise `cd Castle/Cellar` pour aller dans le cellar, puis `rm *spider*` pour les eliminer toutes en une seule commande. `*` est un joker qui permet de sélectionner tous les fichiers contenant "spider" dans leur nom car évidemment, elles ont toutes des chiffres différents !
 
 ![Mission 8](./missions/mission_8.png)
 
 ### Mission 9
 
-> Je pensais que cela allait être terminé, mais elles sont revenues ces araignées, et en plus en étant cachées zebi ! On utilise `cd Castle/Cellar` pour aller dans le cellar, puis `rm .*spider*` pour les eliminer toutes en une seule commande. `.*` est un joker qui permet de sélectionner tous les fichiers commençant par un point et contenant "spider" dans leur nom car évidemment.
+> Je pensais que cela allait être terminé, mais elles sont revenues ces araignées, et en plus en étant cachées ! On utilise `cd Castle/Cellar` pour aller dans le cellar, puis `rm .*spider*` pour les eliminer toutes en une seule commande. `.*` est un joker qui permet de sélectionner tous les fichiers commençant par un point et contenant "spider" dans leur nom car évidemment.
 
 ![Mission 9](./missions/mission_9.png)
 
@@ -137,4 +141,7 @@
 > On doit aider l'hermite à retrouver la recette de son herbal tea. On va dans la cave avec lui avec la commande `cd ~/Mountain/Cave`, puis on utilise la commande `ls` pour voir ce qu'il s'y trouve. On voit qu'il y a l'hermite ainsi qu'un dossier des récettes de potions. On va dedans avec la commande `cd Book_of_potions`, puis on utilise la commande `ls` pour voir ce qu'il y a dedans. On voit qu'il y a plusieurs fichiers, on utilise la commande `cat table_of_content` pour afficher le contenu du fichier du sommaire. On voit que la recette de herbal tea se trouve dans le fichier `page_07`. On peut confirmer cela avec la commande `cat page_07` pour afficher le contenu du fichier. On retourne dans avec l'hermite avec la commande `cd ../` puis on fait la commande `head -n 8 Book_of_potions/page_07` pour afficher les 8 premières lignes du fichier `page_07` et on voit que c'est bien la recette de herbal tea. Enfin, on exécute la commande `gsh check` pour donner la recette à l'hermite.
 
 ![Mission 24](./missions/mission_24.png)
+
+### Mission 25
+
 
