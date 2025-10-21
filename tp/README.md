@@ -1,4 +1,4 @@
-# Administration Poste Client - Exercices Pratiques
+# Administration Poste Client - Exercices Pratiques - RUSSO Antonin
 
 ## 📖 Description
 
@@ -37,16 +37,6 @@ Administration Poste Client/
 | `cp` | Copie de fichiers et répertoires | 4 |
 | `crontab` | Planification de tâches | 4 |
 | `journalctl` | Consultation des logs système | 5 |
-
-## 📚 Ressources Complémentaires
-
-- [Manuel Linux](https://linux.die.net/man/)
-- [Guide des permissions Unix](https://www.gnu.org/software/coreutils/manual/html_node/File-permissions.html)
-- [Documentation sur la gestion des processus](https://tldp.org/LDP/tlk/kernel/processes.html)
-
-## 🤝 Contribution
-
-Ces exercices sont conçus dans un cadre pédagogique. Pour toute suggestion d'amélioration ou correction, n'hésitez pas à proposer vos modifications.
 
 ## 📄 Licence
 

@@ -10,7 +10,7 @@
 
 ### Étape 1 : Affichage des logs du service ssh
 
-> Utilisez la commande `journalctl` pour afficher les logs du service ssh. La commande suivante affiche les logs des dernières 24 heures.
+> J'utilise la commande `journalctl` pour afficher les logs du service ssh. La commande suivante affiche les logs des dernières 24 heures.
 
 ```bash
 journalctl -u ssh --since "24 hours ago"
@@ -22,7 +22,7 @@ journalctl -u ssh --since "24 hours ago"
 
 ### Étape 2 : Filtrage des connexions ratées
 
-> Utilisez la commande `grep` pour filtrer les logs et n'afficher que les connexions ratées. La chaîne de caractères "Failed password" est généralement utilisée pour identifier ces tentatives.
+> J'utilise la commande `grep` pour filtrer les logs et n'afficher que les connexions ratées. La chaîne de caractères "Failed password" est généralement utilisée pour identifier ces tentatives.
 
 ```bash
 journalctl -u ssh --since "24 hours ago" | grep "Failed password"
@@ -34,7 +34,7 @@ journalctl -u ssh --since "24 hours ago" | grep "Failed password"
 
 ### Étape 3 : Sauvegarde des logs filtrés dans un fichier
 
-> Redirigez la sortie de la commande filtrée vers un fichier nommé `sshd_failed_logins.txt`.
+> Je redirige la sortie de la commande filtrée vers un fichier nommé `sshd_failed_logins.txt`.
 
 ```bash
 journalctl -u ssh --since "24 hours ago" | grep "Failed password" > sshd_failed_logins.txt
